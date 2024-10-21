@@ -4,7 +4,7 @@ import std/tables
 import std/sequtils
 import std/strutils
 
-const manufacturers = @[
+const manufacturers* = @[
     {"name": "Aircotec", "long": "ACT", "short": "I"}.toTable,
     {"name": "Cambridge Aero Instruments", "long": "CAM", "short": "C"}.toTable,
     {"name": "ClearNav Instruments", "long": "CNI", "short": ""}.toTable,

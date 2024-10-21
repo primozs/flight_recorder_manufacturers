@@ -4,18 +4,17 @@
 
 ## Usage
 
-```py
-from igcstats.flight_recorder_manufacturers import MANUFACTURERS
+```nim
+from flight_recorder_manufacturers import manufacturers
 
-for item in MANUFACTURERS:
-  print(item["name"])
+for item in manufacturers:
+  echo item["name"]
 ```
 
-```py
-from igcstats.flight_recorder_manufacturers import lookup
+```nim
+from flight_recorder_manufacturers import lookup
 
 lookup("V"); // -> LXNAV
 lookup("FLA"); // -> Flarm
 lookup("XCS"); // -> XCSoar
 ```
-

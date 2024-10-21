@@ -5,8 +5,6 @@ author = "Primoz Susa"
 description = "get logger manufacturer"
 license = "MIT"
 srcDir = "src"
-bin = @["flight_recorder_manufacturers"]
-binDir = "bin"
 
 
 # Dependencies
